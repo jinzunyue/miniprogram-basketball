@@ -1,0 +1,18 @@
+.topContainer {
+    width: 100%;
+    height: 100rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.topContainer .button {
+    width: 150rpx;
+    height: 50rpx;
+    max-lines: 1;
+    line-height: 50rpx;
+    background-color: #0063ce;
+    color: red;
+    font-size: 26rpx;
+    flex-direction: row;
+}

@@ -1,0 +1,19 @@
+<view>
+    <view class="topContainer">
+        <button class="button">所有场次</button>
+        <button class="button">我创建的</button>
+        <navigator url="../basketballCreate/basketballCreate" hover-class="navigator-hover">
+            <button type="default">跳转到新页面</button>
+        </navigator>
+    </view>
+    <view class="line"/>
+    <scroll-view
+      scroll-y="true"
+      style="background-color: #007aff; display: flex; flex: 1; margin-top: 20px"
+      bindscrolltolower="onLoadMore"
+    >
+        <view style="height: 100px" wx:for="{{list}}}">
+          {{index}}
+        </view>
+    </scroll-view>
+</view>

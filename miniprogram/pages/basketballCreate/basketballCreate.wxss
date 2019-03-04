@@ -1,0 +1,13 @@
+.padding {
+    padding: 50px;
+}
+
+.rowContainer {
+    height: 44px;
+    width: 100%;
+    flex-direction: row
+}
+
+.rowContainer input {
+    flex: 1; margin-left: 10px
+}

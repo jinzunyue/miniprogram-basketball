@@ -1,0 +1,27 @@
+<view class="container padding">
+    <view class="rowContainer">
+        <text>创建人:</text>
+        <input name="creator" placeholder="请输入你的姓名"/>
+    </view>
+    <view class="line"/>
+    <view class="rowContainer">
+        <text>地址:</text>
+        <input name="address" placeholder="请输入你的地址"/>
+    </view>
+    <view class="line"/>
+    <view class="rowContainer">
+        <text>位置:</text>
+        <text>获取位置</text>
+    </view>
+    <view class="line"/>
+    <view class="rowContainer">
+        <text>时间:</text>
+        <text>获取位置</text>
+    </view>
+    <view class="line"/>
+    <view class="rowContainer">
+        <text>注意事项:</text>
+        <input name="address" placeholder="请输入注意事项"/>
+    </view>
+    <view class="line"/>
+</view>
